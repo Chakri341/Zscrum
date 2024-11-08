@@ -1,3 +1,5 @@
+import { BarChart, Calendar, Layout } from "lucide-react";
+
 export const faqs = [
     {
       question: "What is ZCRUM?",
@@ -46,8 +48,7 @@ export const faqs = [
     },
     {
       title: "Comprehensive Reporting",
-      description:
-        "Gain insights into your team's performance with detailed, customizable reports and analytics.",
+      description:"Gain insights into your team's performance with detailed, customizable reports and analytics.",
       icon: BarChart,
     },
   ];

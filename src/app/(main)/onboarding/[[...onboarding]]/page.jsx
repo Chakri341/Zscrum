@@ -11,7 +11,7 @@ const page = () => {
     if (organization) {
       router.push(`/organisation/${organization.slug}`);
     }
-  }, [organization]);
+  }, [organization, router]);
 
   return (
     <div className="flex justify-center items-center p-14 ">

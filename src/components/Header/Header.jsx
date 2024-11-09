@@ -5,8 +5,8 @@ import { SignedIn, SignedOut, SignInButton } from "@clerk/nextjs";
 import { PenBox } from "lucide-react";
 import Image from "next/image";
 import { checkUser } from "@/lib/checkUser";
-import UserLoading from "../Loader/loader";
 import UserMenu from "../UserMenu/UserMenu";
+import UserLoading from "../Loader/UserLoading";
 
 const  Header = async() => {
   await checkUser();
@@ -41,7 +41,6 @@ const  Header = async() => {
           <SignedIn>
             <UserMenu />
           </SignedIn>
-
         </div>
       </nav>
 
